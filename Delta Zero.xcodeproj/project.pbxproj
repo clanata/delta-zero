@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C97300782A9D258800D0ED0A /* Delta_ZeroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97300772A9D258800D0ED0A /* Delta_ZeroApp.swift */; };
+		C973007A2A9D258800D0ED0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97300792A9D258800D0ED0A /* ContentView.swift */; };
+		C973007C2A9D258900D0ED0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C973007B2A9D258900D0ED0A /* Assets.xcassets */; };
+		C973007F2A9D258900D0ED0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C973007E2A9D258900D0ED0A /* Preview Assets.xcassets */; };
+		C97300892A9D258900D0ED0A /* Delta_ZeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97300882A9D258900D0ED0A /* Delta_ZeroTests.swift */; };
+		C97300932A9D258900D0ED0A /* Delta_ZeroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97300922A9D258900D0ED0A /* Delta_ZeroUITests.swift */; };
+		C97300952A9D258900D0ED0A /* Delta_ZeroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97300942A9D258900D0ED0A /* Delta_ZeroUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C97300852A9D258900D0ED0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C973006C2A9D258800D0ED0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C97300732A9D258800D0ED0A;
+			remoteInfo = "Delta Zero";
+		};
+		C973008F2A9D258900D0ED0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C973006C2A9D258800D0ED0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C97300732A9D258800D0ED0A;
+			remoteInfo = "Delta Zero";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C97300742A9D258800D0ED0A /* Delta Zero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Delta Zero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97300772A9D258800D0ED0A /* Delta_ZeroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delta_ZeroApp.swift; sourceTree = "<group>"; };
+		C97300792A9D258800D0ED0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C973007B2A9D258900D0ED0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C973007E2A9D258900D0ED0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C97300842A9D258900D0ED0A /* Delta ZeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Delta ZeroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97300882A9D258900D0ED0A /* Delta_ZeroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delta_ZeroTests.swift; sourceTree = "<group>"; };
+		C973008E2A9D258900D0ED0A /* Delta ZeroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Delta ZeroUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97300922A9D258900D0ED0A /* Delta_ZeroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delta_ZeroUITests.swift; sourceTree = "<group>"; };
+		C97300942A9D258900D0ED0A /* Delta_ZeroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delta_ZeroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C97300712A9D258800D0ED0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97300812A9D258900D0ED0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C973008B2A9D258900D0ED0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C973006B2A9D258800D0ED0A = {
+			isa = PBXGroup;
+			children = (
+				C97300762A9D258800D0ED0A /* Delta Zero */,
+				C97300872A9D258900D0ED0A /* Delta ZeroTests */,
+				C97300912A9D258900D0ED0A /* Delta ZeroUITests */,
+				C97300752A9D258800D0ED0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C97300752A9D258800D0ED0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C97300742A9D258800D0ED0A /* Delta Zero.app */,
+				C97300842A9D258900D0ED0A /* Delta ZeroTests.xctest */,
+				C973008E2A9D258900D0ED0A /* Delta ZeroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C97300762A9D258800D0ED0A /* Delta Zero */ = {
+			isa = PBXGroup;
+			children = (
+				C97300772A9D258800D0ED0A /* Delta_ZeroApp.swift */,
+				C97300792A9D258800D0ED0A /* ContentView.swift */,
+				C973007B2A9D258900D0ED0A /* Assets.xcassets */,
+				C973007D2A9D258900D0ED0A /* Preview Content */,
+			);
+			path = "Delta Zero";
+			sourceTree = "<group>";
+		};
+		C973007D2A9D258900D0ED0A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C973007E2A9D258900D0ED0A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C97300872A9D258900D0ED0A /* Delta ZeroTests */ = {
+			isa = PBXGroup;
+			children = (
+				C97300882A9D258900D0ED0A /* Delta_ZeroTests.swift */,
+			);
+			path = "Delta ZeroTests";
+			sourceTree = "<group>";
+		};
+		C97300912A9D258900D0ED0A /* Delta ZeroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C97300922A9D258900D0ED0A /* Delta_ZeroUITests.swift */,
+				C97300942A9D258900D0ED0A /* Delta_ZeroUITestsLaunchTests.swift */,
+			);
+			path = "Delta ZeroUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C97300732A9D258800D0ED0A /* Delta Zero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97300982A9D258900D0ED0A /* Build configuration list for PBXNativeTarget "Delta Zero" */;
+			buildPhases = (
+				C97300702A9D258800D0ED0A /* Sources */,
+				C97300712A9D258800D0ED0A /* Frameworks */,
+				C97300722A9D258800D0ED0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Delta Zero";
+			productName = "Delta Zero";
+			productReference = C97300742A9D258800D0ED0A /* Delta Zero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C97300832A9D258900D0ED0A /* Delta ZeroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C973009B2A9D258900D0ED0A /* Build configuration list for PBXNativeTarget "Delta ZeroTests" */;
+			buildPhases = (
+				C97300802A9D258900D0ED0A /* Sources */,
+				C97300812A9D258900D0ED0A /* Frameworks */,
+				C97300822A9D258900D0ED0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C97300862A9D258900D0ED0A /* PBXTargetDependency */,
+			);
+			name = "Delta ZeroTests";
+			productName = "Delta ZeroTests";
+			productReference = C97300842A9D258900D0ED0A /* Delta ZeroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C973008D2A9D258900D0ED0A /* Delta ZeroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C973009E2A9D258900D0ED0A /* Build configuration list for PBXNativeTarget "Delta ZeroUITests" */;
+			buildPhases = (
+				C973008A2A9D258900D0ED0A /* Sources */,
+				C973008B2A9D258900D0ED0A /* Frameworks */,
+				C973008C2A9D258900D0ED0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C97300902A9D258900D0ED0A /* PBXTargetDependency */,
+			);
+			name = "Delta ZeroUITests";
+			productName = "Delta ZeroUITests";
+			productReference = C973008E2A9D258900D0ED0A /* Delta ZeroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C973006C2A9D258800D0ED0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C97300732A9D258800D0ED0A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					C97300832A9D258900D0ED0A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C97300732A9D258800D0ED0A;
+					};
+					C973008D2A9D258900D0ED0A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C97300732A9D258800D0ED0A;
+					};
+				};
+			};
+			buildConfigurationList = C973006F2A9D258800D0ED0A /* Build configuration list for PBXProject "Delta Zero" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C973006B2A9D258800D0ED0A;
+			productRefGroup = C97300752A9D258800D0ED0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C97300732A9D258800D0ED0A /* Delta Zero */,
+				C97300832A9D258900D0ED0A /* Delta ZeroTests */,
+				C973008D2A9D258900D0ED0A /* Delta ZeroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C97300722A9D258800D0ED0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C973007F2A9D258900D0ED0A /* Preview Assets.xcassets in Resources */,
+				C973007C2A9D258900D0ED0A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97300822A9D258900D0ED0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C973008C2A9D258900D0ED0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C97300702A9D258800D0ED0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C973007A2A9D258800D0ED0A /* ContentView.swift in Sources */,
+				C97300782A9D258800D0ED0A /* Delta_ZeroApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97300802A9D258900D0ED0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97300892A9D258900D0ED0A /* Delta_ZeroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C973008A2A9D258900D0ED0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97300932A9D258900D0ED0A /* Delta_ZeroUITests.swift in Sources */,
+				C97300952A9D258900D0ED0A /* Delta_ZeroUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C97300862A9D258900D0ED0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C97300732A9D258800D0ED0A /* Delta Zero */;
+			targetProxy = C97300852A9D258900D0ED0A /* PBXContainerItemProxy */;
+		};
+		C97300902A9D258900D0ED0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C97300732A9D258800D0ED0A /* Delta Zero */;
+			targetProxy = C973008F2A9D258900D0ED0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C97300962A9D258900D0ED0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C97300972A9D258900D0ED0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C97300992A9D258900D0ED0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Delta Zero/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lanata-iOS.Delta-Zero";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C973009A2A9D258900D0ED0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Delta Zero/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lanata-iOS.Delta-Zero";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C973009C2A9D258900D0ED0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lanata-iOS.Delta-ZeroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Delta Zero.app/Delta Zero";
+			};
+			name = Debug;
+		};
+		C973009D2A9D258900D0ED0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lanata-iOS.Delta-ZeroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Delta Zero.app/Delta Zero";
+			};
+			name = Release;
+		};
+		C973009F2A9D258900D0ED0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lanata-iOS.Delta-ZeroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Delta Zero";
+			};
+			name = Debug;
+		};
+		C97300A02A9D258900D0ED0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lanata-iOS.Delta-ZeroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Delta Zero";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C973006F2A9D258800D0ED0A /* Build configuration list for PBXProject "Delta Zero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97300962A9D258900D0ED0A /* Debug */,
+				C97300972A9D258900D0ED0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C97300982A9D258900D0ED0A /* Build configuration list for PBXNativeTarget "Delta Zero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97300992A9D258900D0ED0A /* Debug */,
+				C973009A2A9D258900D0ED0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C973009B2A9D258900D0ED0A /* Build configuration list for PBXNativeTarget "Delta ZeroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C973009C2A9D258900D0ED0A /* Debug */,
+				C973009D2A9D258900D0ED0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C973009E2A9D258900D0ED0A /* Build configuration list for PBXNativeTarget "Delta ZeroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C973009F2A9D258900D0ED0A /* Debug */,
+				C97300A02A9D258900D0ED0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C973006C2A9D258800D0ED0A /* Project object */;
+}
