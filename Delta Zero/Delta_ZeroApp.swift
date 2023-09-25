@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct Delta_ZeroApp: App {
+    @StateObject private var flightData = FlightData()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                SearchView()
+            }
+            .environmentObject(flightData)
+            .preferredColorScheme(.light)
         }
     }
 }

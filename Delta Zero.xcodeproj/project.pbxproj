@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		C97300782A9D258800D0ED0A /* Delta_ZeroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97300772A9D258800D0ED0A /* Delta_ZeroApp.swift */; };
-		C973007A2A9D258800D0ED0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97300792A9D258800D0ED0A /* ContentView.swift */; };
+		C973007A2A9D258800D0ED0A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97300792A9D258800D0ED0A /* SearchView.swift */; };
 		C973007C2A9D258900D0ED0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C973007B2A9D258900D0ED0A /* Assets.xcassets */; };
 		C973007F2A9D258900D0ED0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C973007E2A9D258900D0ED0A /* Preview Assets.xcassets */; };
 		C97300892A9D258900D0ED0A /* Delta_ZeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97300882A9D258900D0ED0A /* Delta_ZeroTests.swift */; };
 		C97300932A9D258900D0ED0A /* Delta_ZeroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97300922A9D258900D0ED0A /* Delta_ZeroUITests.swift */; };
 		C97300952A9D258900D0ED0A /* Delta_ZeroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97300942A9D258900D0ED0A /* Delta_ZeroUITestsLaunchTests.swift */; };
+		C97300A22A9D6C5F00D0ED0A /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97300A12A9D6C5F00D0ED0A /* Flight.swift */; };
+		C97300A42A9D6E8700D0ED0A /* FlightListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97300A32A9D6E8700D0ED0A /* FlightListView.swift */; };
+		C97300A62A9D6E9C00D0ED0A /* FlightMetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97300A52A9D6E9C00D0ED0A /* FlightMetricsView.swift */; };
+		C97300A82A9D709D00D0ED0A /* FlightData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97300A72A9D709D00D0ED0A /* FlightData.swift */; };
+		C9E602782ABA280000D76F9B /* MetricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E602772ABA280000D76F9B /* MetricView.swift */; };
+		C9E6027A2ABA3A7900D76F9B /* FlightInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E602792ABA3A7900D76F9B /* FlightInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		C97300742A9D258800D0ED0A /* Delta Zero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Delta Zero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97300772A9D258800D0ED0A /* Delta_ZeroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delta_ZeroApp.swift; sourceTree = "<group>"; };
-		C97300792A9D258800D0ED0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C97300792A9D258800D0ED0A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		C973007B2A9D258900D0ED0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C973007E2A9D258900D0ED0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C97300842A9D258900D0ED0A /* Delta ZeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Delta ZeroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,12 @@
 		C973008E2A9D258900D0ED0A /* Delta ZeroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Delta ZeroUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97300922A9D258900D0ED0A /* Delta_ZeroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delta_ZeroUITests.swift; sourceTree = "<group>"; };
 		C97300942A9D258900D0ED0A /* Delta_ZeroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delta_ZeroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C97300A12A9D6C5F00D0ED0A /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		C97300A32A9D6E8700D0ED0A /* FlightListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightListView.swift; sourceTree = "<group>"; };
+		C97300A52A9D6E9C00D0ED0A /* FlightMetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightMetricsView.swift; sourceTree = "<group>"; };
+		C97300A72A9D709D00D0ED0A /* FlightData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightData.swift; sourceTree = "<group>"; };
+		C9E602772ABA280000D76F9B /* MetricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricView.swift; sourceTree = "<group>"; };
+		C9E602792ABA3A7900D76F9B /* FlightInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +106,14 @@
 		C97300762A9D258800D0ED0A /* Delta Zero */ = {
 			isa = PBXGroup;
 			children = (
+				C9E602792ABA3A7900D76F9B /* FlightInfoView.swift */,
+				C9E602772ABA280000D76F9B /* MetricView.swift */,
 				C97300772A9D258800D0ED0A /* Delta_ZeroApp.swift */,
-				C97300792A9D258800D0ED0A /* ContentView.swift */,
+				C97300A32A9D6E8700D0ED0A /* FlightListView.swift */,
+				C97300A52A9D6E9C00D0ED0A /* FlightMetricsView.swift */,
+				C97300792A9D258800D0ED0A /* SearchView.swift */,
+				C97300A12A9D6C5F00D0ED0A /* Flight.swift */,
+				C97300A72A9D709D00D0ED0A /* FlightData.swift */,
 				C973007B2A9D258900D0ED0A /* Assets.xcassets */,
 				C973007D2A9D258900D0ED0A /* Preview Content */,
 			);
@@ -257,7 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C973007A2A9D258800D0ED0A /* ContentView.swift in Sources */,
+				C97300A22A9D6C5F00D0ED0A /* Flight.swift in Sources */,
+				C97300A82A9D709D00D0ED0A /* FlightData.swift in Sources */,
+				C97300A42A9D6E8700D0ED0A /* FlightListView.swift in Sources */,
+				C97300A62A9D6E9C00D0ED0A /* FlightMetricsView.swift in Sources */,
+				C9E6027A2ABA3A7900D76F9B /* FlightInfoView.swift in Sources */,
+				C973007A2A9D258800D0ED0A /* SearchView.swift in Sources */,
+				C9E602782ABA280000D76F9B /* MetricView.swift in Sources */,
 				C97300782A9D258800D0ED0A /* Delta_ZeroApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,7 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -417,6 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Delta Zero/Preview Content\"";
+				DEVELOPMENT_TEAM = 2TMQ57Q5FH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -445,6 +470,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Delta Zero/Preview Content\"";
+				DEVELOPMENT_TEAM = 2TMQ57Q5FH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
