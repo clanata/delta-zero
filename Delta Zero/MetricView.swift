@@ -7,22 +7,30 @@
 
 import SwiftUI
 
-// TODO: add some concept of "goal" to metric and then show the correct color
+func getStatusColor(status: Status) -> Color {
+    switch status {
+        case .low:
+            return Color.green
+        case .medium:
+            return Color.yellow
+        case .high:
+            return Color.red
+    }
+}
 
 struct MetricView: View {
-    var title: String
-    var value: String
+    var metric: Metric
 
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 4)
-                .fill(Color.green)
+                .fill(getStatusColor(status: metric.status))
                 .frame(height: 120)
             VStack {
-                Text(String(title))
+                Text(String(metric.label))
                     .font(.body)
                     .multilineTextAlignment(.center)
-                Text(value)
+                Text(metric.value)
                     .font(.largeTitle.weight(.bold))
             }
         }

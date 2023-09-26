@@ -20,6 +20,7 @@
 		C97300A82A9D709D00D0ED0A /* FlightData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97300A72A9D709D00D0ED0A /* FlightData.swift */; };
 		C9E602782ABA280000D76F9B /* MetricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E602772ABA280000D76F9B /* MetricView.swift */; };
 		C9E6027A2ABA3A7900D76F9B /* FlightInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E602792ABA3A7900D76F9B /* FlightInfoView.swift */; };
+		C9E6027C2AC3206E00D76F9B /* Metric.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E6027B2AC3206E00D76F9B /* Metric.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		C97300A72A9D709D00D0ED0A /* FlightData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightData.swift; sourceTree = "<group>"; };
 		C9E602772ABA280000D76F9B /* MetricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricView.swift; sourceTree = "<group>"; };
 		C9E602792ABA3A7900D76F9B /* FlightInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightInfoView.swift; sourceTree = "<group>"; };
+		C9E6027B2AC3206E00D76F9B /* Metric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metric.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				C97300A72A9D709D00D0ED0A /* FlightData.swift */,
 				C973007B2A9D258900D0ED0A /* Assets.xcassets */,
 				C973007D2A9D258900D0ED0A /* Preview Content */,
+				C9E6027B2AC3206E00D76F9B /* Metric.swift */,
 			);
 			path = "Delta Zero";
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				C97300A62A9D6E9C00D0ED0A /* FlightMetricsView.swift in Sources */,
 				C9E6027A2ABA3A7900D76F9B /* FlightInfoView.swift in Sources */,
 				C973007A2A9D258800D0ED0A /* SearchView.swift in Sources */,
+				C9E6027C2AC3206E00D76F9B /* Metric.swift in Sources */,
 				C9E602782ABA280000D76F9B /* MetricView.swift in Sources */,
 				C97300782A9D258800D0ED0A /* Delta_ZeroApp.swift in Sources */,
 			);

@@ -17,10 +17,5 @@ struct Flight: Identifiable, Hashable {
     var destination: String = ""
     var departure: String = ""
     var arrival: String = ""
-    var seatsAvailable: Int = 0
-    var averageSeatsFlownEmptyLastWeek: Int = 0
-    var averageStandbysClearedLastWeek: Int = 0
-    var payloadOptimizedDaysLastWeek: Int = 0
-    var weatherConditions: String = ""
-    var overallNonrevChances: String = ""
+    var metrics: [Metric] = []
 }

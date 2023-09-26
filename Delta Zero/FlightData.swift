@@ -17,12 +17,13 @@ class FlightData: ObservableObject {
               destination: "JFK",
               departure: "Sep 19 16:35",
               arrival: "Sep 19 18:06",
-              seatsAvailable: 5,
-              averageSeatsFlownEmptyLastWeek: 1,
-              averageStandbysClearedLastWeek: 8,
-              payloadOptimizedDaysLastWeek: 0,
-              weatherConditions: "Clear",
-              overallNonrevChances: "Good to Fly"
+              metrics: [
+                Metric(value: "Good to Fly", status: .low),
+                Metric(label: "Seats Available", value: "5", status: .low),
+                Metric(label: "Historic Seats Available", value: "3", status: .medium),
+                Metric(label: "Days Payload Optimized", value: "0", status: .low),
+                Metric(label: "Weather", value: "Clear", status: .low)
+              ]
         ),
         Flight(
               flight_id: "2590",
@@ -30,12 +31,13 @@ class FlightData: ObservableObject {
               destination: "LAX",
               departure: "Sep 21 06:15",
               arrival: "Sep 21 8:47",
-              seatsAvailable: 19,
-              averageSeatsFlownEmptyLastWeek: 13,
-              averageStandbysClearedLastWeek: 18,
-              payloadOptimizedDaysLastWeek: 0,
-              weatherConditions: "Clear",
-              overallNonrevChances: "Good to Fly"
+              metrics: [
+                Metric(value: "Not Good to Fly", status: .high),
+                Metric(label: "Seats Available", value: "-3", status: .high),
+                Metric(label: "Historic Seats Available", value: "0", status: .high),
+                Metric(label: "Days Payload Optimized", value: "0", status: .low),
+                Metric(label: "Weather", value: "Windy", status: .medium)
+              ]
         ),
         Flight(
               flight_id: "9375",
@@ -43,12 +45,13 @@ class FlightData: ObservableObject {
               destination: "BOS",
               departure: "Sep 21 12:09",
               arrival: "Sep 21 6:10",
-              seatsAvailable: -3,
-              averageSeatsFlownEmptyLastWeek: 0,
-              averageStandbysClearedLastWeek: 1,
-              payloadOptimizedDaysLastWeek: 4,
-              weatherConditions: "Clear",
-              overallNonrevChances: "Not Good to Fly"
+              metrics: [
+                Metric(value: "Fly with Caution", status: .medium),
+                Metric(label: "Seats Available", value: "18", status: .low),
+                Metric(label: "Historic Seats Available", value: "13", status: .medium),
+                Metric(label: "Days Payload Optimized", value: "4", status: .high),
+                Metric(label: "Weather", value: "Clear", status: .low)
+              ]
         ),
         Flight(
               flight_id: "4061",
@@ -56,12 +59,13 @@ class FlightData: ObservableObject {
               destination: "SLC",
               departure: "Sep 22 14:41",
               arrival: "Sep 22 15:27",
-              seatsAvailable: 0,
-              averageSeatsFlownEmptyLastWeek: 4,
-              averageStandbysClearedLastWeek: 8,
-              payloadOptimizedDaysLastWeek: 1,
-              weatherConditions: "Clear",
-              overallNonrevChances: "Good to Fly"
+              metrics: [
+                Metric(value: "Good to Fly", status: .low),
+                Metric(label: "Seats Available", value: "7", status: .low),
+                Metric(label: "Historic Seats Available", value: "9", status: .medium),
+                Metric(label: "Days Payload Optimized", value: "0", status: .low),
+                Metric(label: "Weather", value: "Clear", status: .low)
+              ]
         )
     ]
     
