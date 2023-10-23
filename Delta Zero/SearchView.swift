@@ -6,15 +6,16 @@
 //
 
 import SwiftUI
+import Apollo
 
 struct SearchView: View {
     @State private var destination: String = ""
     @State private var origin: String = ""
     @State private var date = Date()
     
-    func onSearch() {
-        print("search")
-    }
+    @EnvironmentObject var flightData: FlightData
+    
+    func onSearch() {}
 
     var body: some View {
         VStack {

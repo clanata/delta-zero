@@ -7,15 +7,8 @@
 
 import SwiftUI
 
-enum Status {
-    case low
-    case medium
-    case high
-}
+typealias Metric = Flights.GetFlightsQuery.Data.Flight.Metric
 
-struct Metric: Identifiable, Hashable {
-    var id = UUID()
-    var label: String = ""
-    var value: String = ""
-    var status: Status = .low
+extension Metric: Identifiable, Hashable {
+    var id: UUID { return UUID() }
 }

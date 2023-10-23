@@ -1,0 +1,18 @@
+type Metric {
+  label: String!
+  value: String!
+  status: Int!
+}
+
+type Flight {
+  flightNumber: String!
+  origin: String!
+  destination: String!
+  departure: String!
+  arrival: String!
+  metrics: [Metric]!
+}
+
+type Query {
+  flights: [Flight!]!
+}

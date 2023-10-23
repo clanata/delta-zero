@@ -1,13 +1,17 @@
 import strawberry
+import typing
+
+@strawberry.type
+class Metric:
+    label: str
+    value: str
+    status: int
 
 @strawberry.type
 class Flight:
-    id: str
     flight_number: str
     origin: str
-    dest: str
-    depart: str
-    arrive: str
-    seats_available: str
-    pred_clear: str
-    pred_d1_clear: str
+    destination: str
+    departure: str
+    arrival: str
+    metrics: list[Metric]

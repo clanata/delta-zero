@@ -1,0 +1,15 @@
+query GetFlights {
+  flights {
+    id
+    flightNumber
+    origin
+    destination
+    departure
+    arrival
+    metrics {
+      label
+      value
+      status
+    }
+  }
+}

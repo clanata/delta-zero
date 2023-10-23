@@ -18,6 +18,14 @@
 		C97300A42A9D6E8700D0ED0A /* FlightListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97300A32A9D6E8700D0ED0A /* FlightListView.swift */; };
 		C97300A62A9D6E9C00D0ED0A /* FlightMetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97300A52A9D6E9C00D0ED0A /* FlightMetricsView.swift */; };
 		C97300A82A9D709D00D0ED0A /* FlightData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97300A72A9D709D00D0ED0A /* FlightData.swift */; };
+		C9BD9A552AE1E68200E36002 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = C9BD9A542AE1E68200E36002 /* Apollo */; };
+		C9BD9A592AE30F5900E36002 /* GetFlightsQuery.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD9A582AE30F5900E36002 /* GetFlightsQuery.graphql.swift */; };
+		C9BD9A5C2AE310F600E36002 /* SchemaMetadata.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD9A5A2AE310F600E36002 /* SchemaMetadata.graphql.swift */; };
+		C9BD9A5D2AE310F600E36002 /* SchemaConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD9A5B2AE310F600E36002 /* SchemaConfiguration.swift */; };
+		C9BD9A5F2AE3112700E36002 /* Flights.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD9A5E2AE3112700E36002 /* Flights.graphql.swift */; };
+		C9BD9A622AE3115A00E36002 /* Flight.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD9A602AE3115A00E36002 /* Flight.graphql.swift */; };
+		C9BD9A632AE3115A00E36002 /* Query.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD9A612AE3115A00E36002 /* Query.graphql.swift */; };
+		C9BD9A662AE6B85E00E36002 /* Metric.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD9A652AE6B85E00E36002 /* Metric.graphql.swift */; };
 		C9E602782ABA280000D76F9B /* MetricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E602772ABA280000D76F9B /* MetricView.swift */; };
 		C9E6027A2ABA3A7900D76F9B /* FlightInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E602792ABA3A7900D76F9B /* FlightInfoView.swift */; };
 		C9E6027C2AC3206E00D76F9B /* Metric.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E6027B2AC3206E00D76F9B /* Metric.swift */; };
@@ -55,6 +63,14 @@
 		C97300A32A9D6E8700D0ED0A /* FlightListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightListView.swift; sourceTree = "<group>"; };
 		C97300A52A9D6E9C00D0ED0A /* FlightMetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightMetricsView.swift; sourceTree = "<group>"; };
 		C97300A72A9D709D00D0ED0A /* FlightData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightData.swift; sourceTree = "<group>"; };
+		C9BD9A582AE30F5900E36002 /* GetFlightsQuery.graphql.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFlightsQuery.graphql.swift; sourceTree = "<group>"; };
+		C9BD9A5A2AE310F600E36002 /* SchemaMetadata.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SchemaMetadata.graphql.swift; path = graphql/Schema/SchemaMetadata.graphql.swift; sourceTree = "<group>"; };
+		C9BD9A5B2AE310F600E36002 /* SchemaConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SchemaConfiguration.swift; path = graphql/Schema/SchemaConfiguration.swift; sourceTree = "<group>"; };
+		C9BD9A5E2AE3112700E36002 /* Flights.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Flights.graphql.swift; path = graphql/Flights.graphql.swift; sourceTree = "<group>"; };
+		C9BD9A602AE3115A00E36002 /* Flight.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Flight.graphql.swift; path = graphql/Schema/Objects/Flight.graphql.swift; sourceTree = "<group>"; };
+		C9BD9A612AE3115A00E36002 /* Query.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Query.graphql.swift; path = graphql/Schema/Objects/Query.graphql.swift; sourceTree = "<group>"; };
+		C9BD9A642AE315E800E36002 /* Delta-Zero-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Delta-Zero-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C9BD9A652AE6B85E00E36002 /* Metric.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Metric.graphql.swift; path = flights/Schema/Objects/Metric.graphql.swift; sourceTree = SOURCE_ROOT; };
 		C9E602772ABA280000D76F9B /* MetricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricView.swift; sourceTree = "<group>"; };
 		C9E602792ABA3A7900D76F9B /* FlightInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightInfoView.swift; sourceTree = "<group>"; };
 		C9E6027B2AC3206E00D76F9B /* Metric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metric.swift; sourceTree = "<group>"; };
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9BD9A552AE1E68200E36002 /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +125,15 @@
 		C97300762A9D258800D0ED0A /* Delta Zero */ = {
 			isa = PBXGroup;
 			children = (
+				C9BD9A652AE6B85E00E36002 /* Metric.graphql.swift */,
+				C9BD9A642AE315E800E36002 /* Delta-Zero-Info.plist */,
+				C9BD9A602AE3115A00E36002 /* Flight.graphql.swift */,
+				C9BD9A612AE3115A00E36002 /* Query.graphql.swift */,
+				C9BD9A5E2AE3112700E36002 /* Flights.graphql.swift */,
+				C9BD9A5B2AE310F600E36002 /* SchemaConfiguration.swift */,
+				C9BD9A5A2AE310F600E36002 /* SchemaMetadata.graphql.swift */,
 				C9E602792ABA3A7900D76F9B /* FlightInfoView.swift */,
+				C9BD9A582AE30F5900E36002 /* GetFlightsQuery.graphql.swift */,
 				C9E602772ABA280000D76F9B /* MetricView.swift */,
 				C97300772A9D258800D0ED0A /* Delta_ZeroApp.swift */,
 				C97300A32A9D6E8700D0ED0A /* FlightListView.swift */,
@@ -164,6 +189,9 @@
 			dependencies = (
 			);
 			name = "Delta Zero";
+			packageProductDependencies = (
+				C9BD9A542AE1E68200E36002 /* Apollo */,
+			);
 			productName = "Delta Zero";
 			productReference = C97300742A9D258800D0ED0A /* Delta Zero.app */;
 			productType = "com.apple.product-type.application";
@@ -236,6 +264,9 @@
 				Base,
 			);
 			mainGroup = C973006B2A9D258800D0ED0A;
+			packageReferences = (
+				C9BD9A532AE1E68200E36002 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
 			productRefGroup = C97300752A9D258800D0ED0A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -278,14 +309,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9BD9A662AE6B85E00E36002 /* Metric.graphql.swift in Sources */,
 				C97300A22A9D6C5F00D0ED0A /* Flight.swift in Sources */,
 				C97300A82A9D709D00D0ED0A /* FlightData.swift in Sources */,
 				C97300A42A9D6E8700D0ED0A /* FlightListView.swift in Sources */,
 				C97300A62A9D6E9C00D0ED0A /* FlightMetricsView.swift in Sources */,
+				C9BD9A622AE3115A00E36002 /* Flight.graphql.swift in Sources */,
 				C9E6027A2ABA3A7900D76F9B /* FlightInfoView.swift in Sources */,
+				C9BD9A5D2AE310F600E36002 /* SchemaConfiguration.swift in Sources */,
+				C9BD9A632AE3115A00E36002 /* Query.graphql.swift in Sources */,
 				C973007A2A9D258800D0ED0A /* SearchView.swift in Sources */,
+				C9BD9A5F2AE3112700E36002 /* Flights.graphql.swift in Sources */,
+				C9BD9A5C2AE310F600E36002 /* SchemaMetadata.graphql.swift in Sources */,
 				C9E6027C2AC3206E00D76F9B /* Metric.swift in Sources */,
 				C9E602782ABA280000D76F9B /* MetricView.swift in Sources */,
+				C9BD9A592AE30F5900E36002 /* GetFlightsQuery.graphql.swift in Sources */,
 				C97300782A9D258800D0ED0A /* Delta_ZeroApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,6 +486,7 @@
 				DEVELOPMENT_TEAM = 2TMQ57Q5FH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Delta-Zero-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -477,6 +516,7 @@
 				DEVELOPMENT_TEAM = 2TMQ57Q5FH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Delta-Zero-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -607,6 +647,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C9BD9A532AE1E68200E36002 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C9BD9A542AE1E68200E36002 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9BD9A532AE1E68200E36002 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C973006C2A9D258800D0ED0A /* Project object */;
 }

@@ -16,10 +16,17 @@ struct FlightMetricsView: View {
     var body: some View {
         VStack {
             if (flight.metrics.count != 0) {
-                MetricView(metric: flight.metrics[0])
+                if let firstMetric = flight.metrics[0] {
+                    MetricView(metric: firstMetric)
+                }
+                else {
+                    Text("No flight information found.")
+                }
                 LazyVGrid(columns: columnLayout) {
-                    ForEach(Array(flight.metrics[1...])) { metric in
-                        MetricView(metric: metric)
+                    ForEach(Array(flight.metrics[1...]), id: \.self) { metric in
+                        if let metric {
+                            MetricView(metric: metric)
+                        }
                     }
                 }
             }

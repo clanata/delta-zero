@@ -12,10 +12,13 @@ struct FlightListView: View {
     
     var body: some View {
         VStack() {
-            ForEach(flightData.sortedFlights()) { $flight in
+            ForEach(flightData.sortedFlights(), id:\.self) { $flight in
                 FlightInfoView(flight: $flight)
                 Divider()
             }
+        }
+        .onAppear {
+            flightData.fetchFlights()
         }
     }
 }

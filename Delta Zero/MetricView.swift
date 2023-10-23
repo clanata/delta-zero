@@ -7,14 +7,16 @@
 
 import SwiftUI
 
-func getStatusColor(status: Status) -> Color {
+func getStatusColor(status: Int) -> Color {
     switch status {
-        case .low:
+        case 0:
             return Color.green
-        case .medium:
+        case 1:
             return Color.yellow
-        case .high:
+        case 2:
             return Color.red
+        default:
+            return Color.gray
     }
 }
 

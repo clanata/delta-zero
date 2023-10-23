@@ -25,7 +25,7 @@ struct FlightInfoView: View {
                         Spacer()
                     }
                     HStack {
-                        Text("DL" + flight.flight_id)
+                        Text(flight.flightNumber)
                         Spacer()
                     }
                 }
