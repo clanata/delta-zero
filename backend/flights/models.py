@@ -1,5 +1,5 @@
 import strawberry
-import typing
+from typing import Optional
 
 @strawberry.type
 class Metric:
@@ -15,3 +15,9 @@ class Flight:
     departure: str
     arrival: str
     metrics: list[Metric]
+
+@strawberry.input
+class GetFlightsInput:
+    origin: Optional[str] = None
+    destination: Optional[str] = None
+    departure: Optional[str] = None
